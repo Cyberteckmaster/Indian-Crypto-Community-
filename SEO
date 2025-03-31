@@ -1,0 +1,18 @@
+import xml.etree.ElementTree as ET
+from datetime import datetime
+
+urls = [
+    "https://www.indiancryptocommunity.com/",
+    "https://www.indiancryptocommunity.com/news",
+    "https://www.indiancryptocommunity.com/tools/tax-calculator",
+]
+
+root = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
+for url in urls:
+    url_element = ET.SubElement(root, "url")
+    ET.SubElement(url_element, "loc").text = url
+    ET.SubElement(url_element, "lastmod").text = datetime.utcnow().strftime("%Y-%m-%d")
+    ET.SubElement(url_element, "priority").text = "0.8"
+
+tree = ET.ElementTree(root)
+tree.write("sitemap.xml")
