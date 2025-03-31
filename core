@@ -1,0 +1,14 @@
+# Must-have Features    
+TECH_STACK = {    
+    "frontend": "Next.js + Tailwind CSS",    
+    "backend": "Django REST Framework",    
+    "database": "PostgreSQL",    
+    "hosting": "AWS Lightsail"    
+}    
+  
+CONTENT_STRUCTURE = [    
+    "/learn/blockchain-basics",    
+    "/tools/tax-calculator",    
+    "/community/forum",    
+    "/news/bitcoin"    
+]
