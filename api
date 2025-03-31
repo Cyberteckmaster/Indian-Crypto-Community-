@@ -1,0 +1,6 @@
+from django.http import JsonResponse
+from .models import CryptoNews
+
+def latest_news(request):
+    news = CryptoNews.objects.order_by("-published_at")[:5].values()
+    return JsonResponse(list(news), safe=False)
