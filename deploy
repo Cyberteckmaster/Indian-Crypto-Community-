@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Install dependencies
+sudo apt update && sudo apt install -y python3-pip nginx postgresql
+
+# Set up Django backend
+cd backend
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver 0.0.0.0:8000 &
