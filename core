@@ -43,3 +43,6 @@ Files to Generate:
 2. /backend (Django models/views)    
 3. /seo (sitemap/robots/schema markup)    
 4. deployment.yml (AWS setup)
+
+curl -I https://www.indiancryptocommunity.com/learn/blockchain-basics    
+# Should return 200 OK + <2s TTFB
