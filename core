@@ -12,3 +12,11 @@ CONTENT_STRUCTURE = [
     "/community/forum",    
     "/news/bitcoin"    
 ]
+
+# Technical Mandates    
+- 100/100 PageSpeed via:    
+   • Critical CSS inlining    
+   • WebP images < 70KB    
+   • Lazy-loaded widgets    
+- hreflang implementation (en + hi)    
+- Daily auto-generated sitemap
