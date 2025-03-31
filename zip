@@ -1,0 +1,2 @@
+curl -I https://www.indiancryptocommunity.com/learn/blockchain-basics    
+# Should return 200 OK + <2s TTFB
