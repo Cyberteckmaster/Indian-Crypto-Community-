@@ -37,3 +37,9 @@ CONTENT_STRUCTURE = [
   - 5 Video tutorials (Hindi/English)    
   - 3 Interactive calculators    
   - Daily news updates (AMP pages)
+
+Files to Generate:    
+1. /frontend (Next.js pages + components)    
+2. /backend (Django models/views)    
+3. /seo (sitemap/robots/schema markup)    
+4. deployment.yml (AWS setup)
