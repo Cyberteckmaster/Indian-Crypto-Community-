@@ -4,3 +4,14 @@ git commit -m "Initial commit - Crypto website setup"
 git branch -M main
 git remote add origin https://github.com/YOUR_GITHUB_USERNAME/indian-crypto-community.git
 git push -u origin main
+
+# Go to project folder
+cd indian-crypto-community
+
+# Initialize Git
+git init
+git add .
+git commit -m "🚀 Initial commit - Crypto Community Website"
+git branch -M main
+git remote add origin https://github.com/YOUR_GITHUB_USERNAME/indian-crypto-community.git
+git push -u origin main
