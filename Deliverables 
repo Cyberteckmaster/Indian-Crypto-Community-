@@ -1,0 +1,5 @@
+Files to Generate:    
+1. /frontend (Next.js pages + components)    
+2. /backend (Django models/views)    
+3. /seo (sitemap/robots/schema markup)    
+4. deployment.yml (AWS setup)
